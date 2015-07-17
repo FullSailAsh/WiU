@@ -1,0 +1,112 @@
+
+/* Change lists */
+
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+li.nav {
+	display: inline;
+	margin-right: 20px;
+}
+
+ol{
+	list-style-type: lower-roman;
+	list-style-position: inside;
+}
+
+/* Foreground Colors, Families, Size, Weight, Style */
+
+
+h1{
+	font-family: 'Poiret One', sans-serif;
+	font-size: 3em;
+	font-weight: normal;
+	color: #F2AAC1;
+	text-shadow: 1px 1px #555;
+	font-style: normal;
+	text-align: center;
+	
+}
+
+h2 {
+	font-family: Arial, Helvetica;
+	font-size: 2em;
+	font-weight: lighter;
+	font-style: normal;
+	color: #04C4D9;
+}
+
+h3 {
+	font-family: Arial, Helvetica;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-style: italic;
+	color: #4EC4D9;
+	
+}
+
+p, ol {
+	font-family: Arial, Helvetica;
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+	line-height: 1.5em;
+	padding: 20px 10px
+}
+
+.intro {
+	text-align: center;
+}
+
+	/*link style info*/
+a:link {
+	color: #D647BF;
+}
+
+a:visited {
+	color: #6547BF;
+}
+
+a:hover {
+	color: #F28444;
+}
+
+a:active {
+	color: #fff;
+}
+
+
+/* Background Colors */
+
+body {
+	background-color: #F2AAC1;
+	
+}
+
+#container {
+	background-color: #AFBAF2;
+	opacity: .90;
+}
+
+.intro, .stylesList, .profession {
+	background-color:  #6F6BF2;
+	opacity: .80;
+	border-radius: 5px;
+}
+
+/* Box Model Styling*/
+
+#container {
+	width: 800px;
+	padding: 10px 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #380055;
+	border-radius: 10px;
+	box-shadow: 5px 5px 8px #d58da4;
+}
+
+
